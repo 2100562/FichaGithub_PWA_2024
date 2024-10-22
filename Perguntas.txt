@@ -5,5 +5,6 @@
     Utilizar branches permite que diversos engenheiros contribuam em simultâneo para o mesmo código, existindo no final um merge de todas as alterações num branch final. Por outro lado, diversas técnicas de organização da evolução do código, utilizam branches para representar uma nova Sprint, ou uma nova funcionalidade, ou até um bug-fix em produção.
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
+    Os conflitos de merge resultam quando existem múltiplas alterações à mesma linha de um ficheiro. O git apenas consegue resolver automaticamente conflitos em linhas distintas. Para resolver os conflitos existem duas opções, ou escolher uma das alterações como a final ou manualmente unir as alterações para produzir um ficheiro final que contenha todas as alterações.
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
